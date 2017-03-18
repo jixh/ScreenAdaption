@@ -1,3 +1,7 @@
 /build
-／local.properties
 local.properties
+/.idea/
+/local.properties
+/ScreenAdaption.iml
+.gradle/
+

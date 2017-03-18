@@ -1,1 +1,1 @@
-include ':app', ':screenadaptionengine'
+include ':app', ':screen-adaption'

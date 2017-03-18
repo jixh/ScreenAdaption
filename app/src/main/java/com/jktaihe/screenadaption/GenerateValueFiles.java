@@ -15,7 +15,7 @@ public class GenerateValueFiles {
 	private int baseW;
 	private int baseH;
 
-	private String dirStr = "./screenadaptionengine/src/main/res";
+	private String dirStr = "./screen-adaption/src/main/res";
 
 	private final static String WTemplate = "<dimen name=\"w{0}\">{1}px</dimen>\n";
 	private final static String HTemplate = "<dimen name=\"h{0}\">{1}px</dimen>\n";
@@ -33,7 +33,7 @@ public class GenerateValueFiles {
 					"720,1184;720,1196;720,1280;" +
 					"768,1024;768,1280;" +
 					"800,1280;" +
-					"1080,1812;1080,1920;" +
+					"1080,1812;1080,1920" +
 					"1200,1920;" +
 					"1440,2560;" +
 					"1536,2048;" +
@@ -63,7 +63,6 @@ public class GenerateValueFiles {
 	}
 
 	/**
-	 * @param  w,h_...w,h;
 	 * @return
 	 */
 	private String validateInput(String supportStr) {
